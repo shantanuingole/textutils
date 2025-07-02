@@ -35,7 +35,7 @@ export default function TextForm(props) {
         
         <div className='container my-3' style ={{color : props.mode === 'dark' ? 'white' : 'black'}}>
         <button disabled = {text.length === 0} className='btn btn-primary' onClick={handleUPClick}> convert to uppercase</button>
-        <button disabled = {text.length === 0} className='btn btn-success mx-4' onClick={handlelowClick}> convert to lowecase</button>
+        <button disabled = {text.length === 0} className='btn btn-primary mx-3' onClick={handlelowClick}> convert to lowecase</button>
         </div>
         <div className='container my-3' style ={{color : props.mode === 'dark' ? 'white' : 'black'}}>
             <h2>Summary of Text</h2>
