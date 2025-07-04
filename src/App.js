@@ -47,7 +47,7 @@ function App() {
     <>
          {/* <Router> */}
         
-        <Navbar  title = "Ingole" About = "About" Mode={Mode} toggle={toggleMode} /> 
+        <Navbar  title = "TextBuddy" About = "About" Mode={Mode} toggle={toggleMode} /> 
         <Alert  Title = {alert}  />
         <div className='container my-3' >
           <TextForm a={showAlert} heading="Enter the Text to Analyse :" mode={Mode} />
